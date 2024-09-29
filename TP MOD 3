@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Profil Pribadi</title>
+  <style>
+    /* Tambahkan gaya CSS di sini jika ingin kustomisasi tampilan */
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      text-align: left;
+      padding: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Profil Pribadi</h1>
+
+  <div>
+    <img src="profil.jpg" alt="Foto Profil" width="200" height="200">
+    <h1>Video perkenalan</h1>
+    <video width="1000" height="300" controls>
+      <source src="video perkenalan.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <h2>Tentang Saya</h2>
+  <p>Halo! Nama saya Raissa Mulia Elvira. Saya seorang Mahasiswa semester 5 S1 Teknologi Informasi Universitas Telkom yang tertarik pada Jurnalistik dan Desain, 
+    oleh karena itu saya membuat Jurnalicaa dan Creatitcaa.</p>
+
+  <h2>Keterampilan</h2>
+  <table>
+    <tr>
+      <th>Keterampilan</th>
+      <th>Tingkat</th>
+    </tr>
+    <tr>
+      <td>UI Design</td>
+      <td>Mahir</td>
+    </tr>
+    <tr>
+        <td>Writer</td>
+        <td>Mahir</td>
+      </tr>
+      <tr>
+        <td>HTML&CSS</td>
+        <td>Sedang</td>
+      </tr>
+    </table>
+
+  <h2>Hubungi Saya</h2>
+  <form>
+    <label for="nama">Nama:</label><br>
+    <input type="text" id="nama" name="nama"><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br>
+    <label for="pesan">Pesan:</label><br>
+    <textarea id="pesan" name="pesan" rows="5" cols="40"></textarea><br>
+    <input type="submit" value="Kirim">
+  </form>
+
+  <h2>Media Sosial</h2>
+  <a href="https://www.linkedin.com/in/raissa-elvira-b9124725b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_verification_details%3B%2FjVhmrGjQ5CEuPGnUHisSA%3D%3D">LinkedIn</a> |
+  <a href="https://github.com/itsmeecaa">github</a> |
+  <a href="https://x.com/raissa_elvira">X</a>
